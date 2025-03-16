@@ -1,0 +1,80 @@
+/* Importação da fonte Verdana */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Container */
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+/* Título */
+h2 {
+    background-color: #333f62; 
+    color: #ffffff; 
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+/* Tabela */
+.table {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho da tabela */
+.table thead {
+    background-color: #ffffff; 
+}
+
+.table th {
+    color: #333f62; 
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Corpo da tabela */
+.table td {
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Efeito de hover nas linhas */
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Efeito de hover nas células */
+.table tbody td:hover {
+    background-color: #6e88d7; 
+    cursor: pointer;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
